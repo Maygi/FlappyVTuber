@@ -2169,7 +2169,7 @@ function Character(game) {
     Entity.call(this, game, -2300, 300);
     
     this.hitBoxDef = {
-    	width: 26, height: 53, offsetX: 52, offsetY: 40, growthX: 0, growthY: 0, originalOffsetX: 52
+    	width: 48, height: 48, offsetX: 8, offsetY: 8, growthX: 0, growthY: 0, originalOffsetX: 0
     };
     drawHitBox(this);
 }
